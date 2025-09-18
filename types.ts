@@ -29,13 +29,14 @@ export interface Progress {
     [courseId: string]: CourseProgress;
 }
 
-export type Page = 'courses' | 'detail' | 'questionBank' | 'apolo';
+export type Page = 'courses' | 'detail' | 'questionBank' | 'apolo' | 'dashboard';
 
 export interface StandaloneQuestion {
     question: string;
     options: string[];
     answer: string;
     explanation: string;
+    category?: string;
 }
 
 export interface QuestionCategory {
