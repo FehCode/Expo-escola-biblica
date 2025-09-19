@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "description": "Plataforma de aprendizado bíblico com IA pronta para deploy no Vercel",
-  "scripts": {
-    "build": "echo 'No frontend build step required; serving static files.' && exit 0"
-  },
   "dependencies": {
     "@google/genai": "^1.20.0",
     "react": "^19.1.1",
